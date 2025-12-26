@@ -7,7 +7,7 @@ jobs:
       - name: Get code
         uses: actions/checkout@v6
       - name: Install NodeJS
-        uses: actions/setups-node@v6
+        uses: actions/setups-node@v3
         with:
           node-version: 18
       - name: Install dependencies
